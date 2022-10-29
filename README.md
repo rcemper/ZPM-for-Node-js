@@ -62,7 +62,7 @@ Known Hosts (*=Exit) [1]:
 1  ws://echo.websocket.org/
 2  --- server 2 ----
 3  --- server 3 ----
-select (1): 1 ==> ws://echo.websocket.org/
+select (1): 1 ==> wss://ws.postman-echo.com/raw
 #
 Enter text to get echoed from WebSocketClient Service
 Terminate with * at first position
@@ -102,7 +102,7 @@ Successfully connected to InterSystems IRIS.
         *** wait 3sec for request ***
         *** wait 3sec for request ***
         *** wait 3sec for request ***
-        echoserver:  ws://echo.websocket.org/
+        echoserver:  wss://ws.postman-echo.com/raw
         ** Lines to process: 3 **
         ********* next turn *********
         * WebSocket Client connected *
