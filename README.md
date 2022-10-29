@@ -59,7 +59,7 @@ $ docker-compose exec iris iris session iris "##class(rccjs.WSockNodeJs).Run()"
 ********* Node.js process id = 1650  *********
 
 Known Hosts (*=Exit) [1]:
-1  ws://echo.websocket.org/
+1  wss://ws.postman-echo.com/raw
 2  --- server 2 ----
 3  --- server 3 ----
 select (1): 1 ==> wss://ws.postman-echo.com/raw
