@@ -6,7 +6,7 @@ RUN \
   apt-get update && \
   apt-get -y install nano  && \
   apt-get -y install curl gnupg
-RUN curl -sL https://deb.nodesource.com/setup_10.x  | bash -
+RUN curl -sL https://deb.nodesource.com/setup_20.x  | bash -
 RUN apt-get -y install nodejs
 COPY api /usr/irissys/lib/js
 RUN  cd /usr/irissys/lib/js  && \
